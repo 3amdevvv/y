@@ -119,3 +119,38 @@ public class ipv4subnetcalc {
                ip & 0xff);
    }
 }
+
+
+Enter an IP Address (in the format x.x.x.x): 192.168.10.1
+The IP address 192.168.10.1 belongs to class C
+Default Netmask: 255.255.255.0
+Total no. of IP addresses possible: 256
+Enter the number of subnets (power of 2): 4
+The IP address 192.168.10.1 belongs to class C
+Default Netmask: 255.255.255.0
+Total no. of IP addresses possible: 256
+
+Enter the number of subnets (power of 2): 4
+New subnet mask: 255.255.255.192
+Number of subnets: 4
+Hosts per subnet: 62
+
+Subnet 0:
+Subnet Address: 192.168.10.0
+Broadcast Address: 192.168.10.63
+Valid host range: 192.168.10.1 - 192.168.10.62
+
+Subnet 1:
+Subnet Address: 192.168.10.64
+Broadcast Address: 192.168.10.127
+Valid host range: 192.168.10.65 - 192.168.10.126
+
+Subnet 2:
+Subnet Address: 192.168.10.128
+Broadcast Address: 192.168.10.191
+Valid host range: 192.168.10.129 - 192.168.10.190
+
+Subnet 3:
+Subnet Address: 192.168.10.192
+Broadcast Address: 192.168.10.255
+Valid host range: 192.168.10.193 - 192.168.10.254
