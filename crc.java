@@ -96,3 +96,14 @@ class crrc {
 
     }
 }
+
+Enter data (message): 1101011111
+Enter key (divisor): 10011
+Sender side...
+Appended Data: 11010111110000
+Remainder: 1011
+Encoded Data (Data + Remainder): 11010111111011
+
+Receiver side...
+Correct message received
+
