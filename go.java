@@ -78,3 +78,26 @@ public class go {
         sc.close();
     }
 }
+
+Enter the frame size: 6
+Enter the window size: 3
+Sent frame: 1
+Sent frame: 2
+Sent frame: 3
+Enter frame number with error (or 99 to exit): 2
+Frame 2 not received, retransmitting window
+Sent frame: 2
+Sent frame: 3
+Sent frame: 4
+Enter frame number with error (or 99 to exit): 0
+Acknowledgement received for frame: 2
+Acknowledgement received for frame: 3
+Acknowledgement received for frame: 4
+Sent frame: 5
+Sent frame: 6
+Enter frame number with error (or 99 to exit): 0
+Acknowledgement received for frame: 5
+Acknowledgement received for frame: 6
+All frames transmitted successfully.
+Total number of transmissions: 9
+
