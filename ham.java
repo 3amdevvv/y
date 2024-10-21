@@ -70,3 +70,11 @@ class hamming {
         scanner.close();
     }
 }
+
+1011
+    Position:  1  2  3  4  5  6  7
+Data:      0  0  1  0  1  1  1
+
+    Position:  1  2  3  4  5  6  7
+Data:      1  1  1  1  1  1  1
+
